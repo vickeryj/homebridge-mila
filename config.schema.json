@@ -1,0 +1,21 @@
+{
+  "pluginAlias": "homebridge-mila",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "username": {
+        "title": "User Name",
+        "type": "string",
+        "required": true
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true
+      }
+    }
+  }
+}
+
